@@ -6,10 +6,10 @@ public class HomeWorkTask3 {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		double radius;
-		System.out.println("¬ведите радиус круга");
+		System.out.println("Input radius circle");
 		radius=sc.nextDouble();
 		double lengthCircle=2*Math.PI*radius;
-		System.out.println("ƒлина круга="+lengthCircle);
+		System.out.println("Length circle="+lengthCircle);
 		sc.close();
 
 	}
